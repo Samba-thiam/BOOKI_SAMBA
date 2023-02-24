@@ -1,0 +1,60 @@
+@media screen and (max-width : 1024px) {
+    
+    .blocPage {
+        padding: 0px 40px;
+
+    }
+    
+    /* code de la section hébergement et populaires */
+    .hebergement-populaire {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hebergement {
+        border-radius: 0px;
+        width: auto;
+        flex:1;
+    }
+
+    .populaire {
+        
+        border-radius: unset;
+        width: auto;
+        flex:1;
+        flex: unset;
+    }
+
+    .cardsPopulaire {
+        flex-direction: row;
+        gap: 5%;
+    }
+    
+    .cardPopulaire {
+        width: 30%;       
+        height: auto;
+        
+    }
+
+    /* code de la section activité */
+
+
+    .cardsActivite {
+        flex-wrap: wrap;
+        height: auto;
+        flex: 1;
+    }
+
+    /* code du footer */
+
+
+    footer {
+        justify-content: space-between;
+        margin: 0 0px 0 0px;
+    }
+    
+    .column {
+        width: auto;
+    }
+
+}

@@ -1,0 +1,138 @@
+@media screen and (max-width : 767px) {
+
+
+    .blocPage {
+        padding: 20px 0px 0px 0px;
+
+    }
+
+    header {
+        height: 100px; 
+        flex-direction: column;
+        justify-content: unset;
+        gap:10px;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    nav {
+        height: 60px;
+    }
+
+    .menuItem {
+        width: 50%;
+
+    }
+
+    .menuItem:hover {
+        border-top: unset;
+        border-bottom: 3px solid #0065FC;
+
+    }
+
+    /* code de la premiere section */
+
+
+.section1 {
+   padding-left: 20px;
+   padding-right: 20px;
+    
+}
+
+
+.searchButton {
+  
+    display: none;
+    
+}
+
+.loupeButton {
+    
+    display: flex;
+    
+}
+
+.FilterBloc {
+  
+    flex-direction: column;
+   
+}
+.elementFilter {
+    width: 160px;
+}
+
+ /* code de la section hébergement et populaires */
+
+ .hebergement-populaire {
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+
+.hebergement {
+    background-color: #fff;
+    border-radius: 0px;
+    width: auto;
+    flex:1;
+}
+
+.blocCardsHeberg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: unset;
+    justify-content: unset;
+    row-gap: 20px;
+
+}
+
+
+
+.cardHebergements {
+   width: 100%;
+   
+}
+
+
+
+.afficherPlus>h3 {
+  display: none;
+}
+
+.populaire {
+    border-radius: 0px;
+    width: auto;
+    flex: 1;
+}
+
+/* code de la section activité */
+
+.cardsActivite {
+    flex-direction: column;
+    justify-content: unset;
+    gap:20px;
+}
+
+.cardActivite {
+    width: auto;
+    height: 200px;
+    margin: 0 20px 0 20px;
+   
+}
+
+/* code du footer */
+
+footer {
+    
+    
+    width: auto;
+    flex-direction: column;
+    justify-content: unset;
+    margin : 0 0px 0 0px;
+}
+
+.column {
+    width: auto;
+}
+
+}

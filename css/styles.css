@@ -1,0 +1,481 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+    margin: 0;
+
+}
+
+.blocPage {
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:unset;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: unset;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menuItem {
+    width: 162px;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menuItem:hover {
+    border-top: 3px solid #0065FC;
+    border-bottom: unset;
+    color: #0065FC;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.slogan>h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.slogan>p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.zoneSearch {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.iconformulaire {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #f2f2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconformulaire>i {
+    color: black;
+}
+
+.inputformulaire {
+    color: black;
+    font-weight: bold;
+    border: 1px solid #f2f2F2;
+    font-family: 'Raleway', sans-serif;
+}
+
+.searchButton {
+    height: 50px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #0065FC;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+.loupeButton {
+    height: 50px;
+    width: 50px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #0065FC;
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+.FilterBloc {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.elementFilter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #f2f2f2;
+    border-radius: 20px;
+    height: 40px;
+    padding-right: 10px;
+    width: unset;
+}
+
+.elementFilter:hover {
+    background-color: #0065FC;
+}
+
+.iconFilter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f2f2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconFilter>i {
+    color: #0065FC;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconInfo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconInfo>i {
+    color: #0065FC;
+}
+
+
+/* code de la section hebergement et plus populaire */
+
+.hebergement-populaire {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.hebergement {
+    background-color: #F2F2F2;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65%;
+}
+
+.titreHeberg {
+    padding: unset;
+}
+
+.blocCardsHeberg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+    
+}
+
+
+.cardHebergements {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 30%;
+    height: 200px;
+    text-decoration: none;
+    color: black;
+    border: 3px solid white;
+    background-color: white;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.imageHebergement {
+    border-radius: 0 0 25px 25px;
+    width: 100%;
+    height: 60%;
+}
+
+.detailHebergement {
+    border-radius: 25px 25px 0 0;
+    width: 96%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 2% 0px 2%;
+
+}
+
+
+.imageHebergement>img {
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nomHotel {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.prixNuit {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.etoiles {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    color: #0065FC;
+}
+
+.gris {
+    color: #f2f2F2;
+}
+
+.afficherPlus>h3 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* code de la section plus populaire */
+
+.populaire {
+    background-color: #F2F2F2;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 33%;
+}
+
+.titrePopulaire {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titrePopulaire>i {
+    color: #0065FC; 
+}
+
+.cardsPopulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardPopulaire {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    height: 150px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 3px solid white;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.imgPopulaire {
+    width: 40%;
+    display: flex;
+    border-radius: 25px 0px 0px 25px;
+
+}
+
+.imgPopulaire>img {
+    border-radius: 25px 0px 0px 25px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detailPopulaire {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textPopulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.PrixNuitPop {
+
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* code de la section activité */
+
+.activite {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titreAcivite {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.cardsActivite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardActivite {
+    width: 22%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    border: 3px solid white;
+    text-decoration: none;
+    color: black;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.imageActivite {
+    height: auto;
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imageActivite>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.detailActivite {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.fondactivite {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: black;
+    text-decoration: none;
+}
+
+/* code du footer */
+
+footer {
+    background-color: #f2f2F2;
+    padding: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin : 0 0px 0 0px;
+}
+
+.column {
+    width: 30%;
+}
+
+.footerItems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerItems>a {
+    color: black;
+    text-decoration: none;
+
+}
