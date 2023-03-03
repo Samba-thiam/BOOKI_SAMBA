@@ -1,11 +1,11 @@
-@media screen and (max-width : 1024px) {
+@media screen and (min-width : 768px) and (max-width : 991px) {
     
     .blocPage {
         padding: 0px 40px;
 
     }
     
-    /* code de la section hébergement et populaires */
+    /* code de la section hébergement et populaires */ 
     .hebergement-populaire {
         flex-direction: column;
         gap: 30px;
